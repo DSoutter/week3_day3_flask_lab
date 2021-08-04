@@ -1,8 +1,13 @@
 <html>
     <head>
-        <title>Masks Order Site</title>
+        <title>{{title}} Mask Shop </title>
     </head>
     <body>
-        
+        <h1><b>List Of Orders</b></h1>
+        {% for order in orders %}   
+        <div>
+            {{order.customer_name}}
+        </div>
+        {% endfor %}
     </body>
 </html>

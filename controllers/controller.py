@@ -8,4 +8,4 @@ from models.order_list import orders
 
 @app.route('/orders')
 def index_orders():
-    return render_template('index.html', title="Mask Shop", orders=orders)
+    return render_template('index.html', title="CodeClan", orders=orders)

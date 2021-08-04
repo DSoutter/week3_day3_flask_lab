@@ -1,0 +1,14 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<html>
+    <head>
+        <title>{{title}} Mask Shop </title>
+    </head>
+    
+    <body>
+        <h1><b>{{order.customer_name}}'s orders</b></h1>
+        <div>
+            {{order.customer_name}}: ordered {{order.quantity}} of the {{order.mask_type}} masks on {{order.order_date}}.
+        </div>
+    </body>
+</html>

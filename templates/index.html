@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
 <html>
     <head>
         <title>{{title}} Mask Shop </title>
@@ -6,7 +8,7 @@
         <h1><b>List Of Orders</b></h1>
         {% for order in orders %}   
         <div>
-            {{order.customer_name}}
+            {{order.customer_name}}: ordered {{order.quantity}} of the {{order.mask_type}} masks on {{order.order_date}}.
         </div>
         {% endfor %}
     </body>

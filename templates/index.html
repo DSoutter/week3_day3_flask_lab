@@ -9,7 +9,7 @@
         <ul>{% for order in orders %}   
         <div>
             <a href="orders/{{orders.index(order)}}">
-                <li>{{order.customer_name}}: ordered {{order.quantity}} of the {{order.mask_type}} masks on {{order.order_date}}.</li>
+                <li>{{order.customer_name}}: ordered {{order.quantity}} of the {{order.mask_type}} masks on {{order.order_date}}.</li><br>
         </a>
         </div>
         {% endfor %}</ul>

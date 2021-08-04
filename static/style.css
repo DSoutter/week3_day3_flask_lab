@@ -1,14 +1,26 @@
+
+body {
+    background-image: linear-gradient(#2a6592, #0b75ccea, #2a6592) ;
+    color: whitesmoke;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 body > ul {
-    background-color: aquamarine;
-    color: rgb(212, 126, 13);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 15px;
+    margin: 15px;
+    padding-top: 15px;
+    background-color: #2a6592;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+
+body > ul > div > a {
+    color:white
 }
 
 h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-body {
-    background-color: chartreuse;
+    color: white;
 }

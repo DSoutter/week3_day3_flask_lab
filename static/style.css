@@ -1,4 +1,4 @@
-body {
+body > ul {
     background-color: aquamarine;
     color: rgb(212, 126, 13);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -6,4 +6,9 @@ body {
 
 h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: chartreuse;
 }

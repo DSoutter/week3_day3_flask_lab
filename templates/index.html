@@ -6,10 +6,10 @@
     </head>
     <body>
         <h1><b>List Of Orders</b></h1>
-        {% for order in orders %}   
+        <ul>{% for order in orders %}   
         <div>
-            {{order.customer_name}}: ordered {{order.quantity}} of the {{order.mask_type}} masks on {{order.order_date}}.
+            <li>{{order.customer_name}}: ordered {{order.quantity}} of the {{order.mask_type}} masks on {{order.order_date}}.</li>
         </div>
-        {% endfor %}
+        {% endfor %}</ul>
     </body>
 </html>
